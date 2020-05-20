@@ -1,23 +1,23 @@
 source 'https://rubygems.org'
 ruby '2.6.3'
 
-gem 'rails', '~> 5.2'
-gem 'bootstrap'
+gem 'rails', '~> 5.2', '>= 5.2.4.3'
+gem 'bootstrap', '>= 4.3.1'
 gem 'attr_encrypted'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.3.3'
 gem 'pagy'
 gem 'local_time'
-gem 'octicons_helper'
+gem 'octicons_helper', '>= 8.5.0'
 gem 'octokit'
 gem 'omniauth-github'
 gem 'puma'
-gem 'sassc-rails'
+gem 'sassc-rails', '>= 2.1.1'
 gem 'turbolinks'
 gem 'typhoeus'
 gem 'faraday_middleware'
 gem 'uglifier'
-gem 'pg_search'
-gem 'jbuilder'
+gem 'pg_search', '>= 2.1.7'
+gem 'jbuilder', '>= 2.9.1'
 gem 'rake', require: false
 gem 'git'
 gem 'rgb'
@@ -40,42 +40,42 @@ gem 'pg', '1.1.4', require: false
 
 group :development, :test do
   gem 'byebug', platform: :mri
-  gem 'dotenv-rails'
+  gem 'dotenv-rails', '>= 2.7.2'
   gem 'guard'
   gem 'guard-minitest'
-  gem 'rails-controller-testing'
-  gem 'sql_queries_count'
+  gem 'rails-controller-testing', '>= 1.0.4'
+  gem 'sql_queries_count', '>= 0.0.1'
   gem 'active_record_query_trace'
   gem 'rubocop', require: false
   gem 'rubocop-performance'
 end
 
 group :test do
-  gem 'factory_bot'
+  gem 'factory_bot', '>= 5.0.2'
   gem 'simplecov'
   gem 'webmock'
   gem 'mocha'
   gem 'minitest'
   gem 'selenium-webdriver'
   gem 'capybara'
-  gem 'action-cable-testing'
+  gem 'action-cable-testing', '>= 0.5.0'
   gem 'timecop'
 end
 
 group :development do
-  gem 'web-console'
+  gem 'web-console', '>= 3.7.0'
   gem 'listen'
-  gem 'spring'
-  gem 'spring-watcher-listen'
+  gem 'spring', '>= 2.0.2'
+  gem 'spring-watcher-listen', '>= 2.0.1'
   gem 'brakeman'
-  gem 'bullet'
+  gem 'bullet', '>= 6.0.0'
   gem 'binding_of_caller'
   gem 'better_errors'
 end
 
 group :production do
   gem 'skylight', '4.0.2'
-  gem 'lograge'
+  gem 'lograge', '>= 0.11.1'
   gem 'puma_worker_killer'
   gem 'hirefire-resource'
 end
