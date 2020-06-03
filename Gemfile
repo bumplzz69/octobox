@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 ruby '2.6.3'
 
-gem 'rails', '~> 5.2'
+gem 'rails', '~> 5.2', '>= 5.2.3'
 gem 'bootstrap'
 gem 'attr_encrypted'
 gem 'jquery-rails'
 gem 'pagy'
 gem 'local_time'
-gem 'octicons_helper'
+gem 'octicons_helper', '>= 8.5.0'
 gem 'octokit'
 gem 'omniauth-github'
 gem 'puma'
@@ -44,7 +44,7 @@ group :development, :test do
   gem 'guard'
   gem 'guard-minitest'
   gem 'rails-controller-testing'
-  gem 'sql_queries_count'
+  gem 'sql_queries_count', '>= 0.0.1'
   gem 'active_record_query_trace'
   gem 'rubocop', require: false
   gem 'rubocop-performance'
@@ -58,7 +58,7 @@ group :test do
   gem 'minitest'
   gem 'selenium-webdriver'
   gem 'capybara'
-  gem 'action-cable-testing'
+  gem 'action-cable-testing', '>= 0.5.0'
   gem 'timecop'
 end
 
