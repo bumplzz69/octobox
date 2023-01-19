@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.6.3'
 
-gem 'rails', '~> 5.2'
+gem 'rails', '~> 6.1', '>= 6.1.7.1'
 gem 'bootstrap'
 gem 'attr_encrypted'
 gem 'jquery-rails'
@@ -40,7 +40,7 @@ gem 'pg', '1.1.4', require: false
 
 group :development, :test do
   gem 'byebug', platform: :mri
-  gem 'dotenv-rails'
+  gem 'dotenv-rails', '>= 2.7.6'
   gem 'guard'
   gem 'guard-minitest'
   gem 'rails-controller-testing'
