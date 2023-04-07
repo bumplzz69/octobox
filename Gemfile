@@ -21,8 +21,8 @@ gem 'jbuilder'
 gem 'rake', require: false
 gem 'git'
 gem 'rgb'
-gem 'sidekiq'
-gem 'sidekiq-unique-jobs'
+gem 'sidekiq', '>= 7.0.8'
+gem 'sidekiq-unique-jobs', '>= 7.0.13'
 gem 'sidekiq-scheduler', require: false
 gem 'rack-canonical-host'
 gem 'sidekiq-status'
