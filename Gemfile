@@ -24,7 +24,7 @@ gem 'rgb'
 gem 'sidekiq'
 gem 'sidekiq-unique-jobs'
 gem 'sidekiq-scheduler', require: false
-gem 'rack-canonical-host'
+gem 'rack-canonical-host', '>= 1.2.0'
 gem 'sidekiq-status'
 gem 'gemoji', require: false
 gem 'bootsnap', require: false
