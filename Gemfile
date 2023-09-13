@@ -21,11 +21,11 @@ gem 'jbuilder'
 gem 'rake', require: false
 gem 'git'
 gem 'rgb'
-gem 'sidekiq'
-gem 'sidekiq-unique-jobs'
-gem 'sidekiq-scheduler', require: false
+gem 'sidekiq', '>= 7.1.3'
+gem 'sidekiq-unique-jobs', '>= 7.0.13'
+gem 'sidekiq-scheduler', '>= 3.0.1', require: false
 gem 'rack-canonical-host'
-gem 'sidekiq-status'
+gem 'sidekiq-status', '>= 1.1.4'
 gem 'gemoji', require: false
 gem 'bootsnap', require: false
 gem 'bugsnag'
