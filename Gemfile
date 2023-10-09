@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.6.3'
 
-gem 'rails', '~> 5.2'
+gem 'rails', '~> 7.1', '>= 7.1.0'
 gem 'bootstrap'
 gem 'attr_encrypted'
 gem 'jquery-rails'
@@ -58,7 +58,7 @@ group :test do
   gem 'minitest'
   gem 'selenium-webdriver'
   gem 'capybara'
-  gem 'action-cable-testing'
+  gem 'action-cable-testing', '>= 0.6.0'
   gem 'timecop'
 end
 
