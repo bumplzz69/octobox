@@ -23,7 +23,7 @@ gem 'git'
 gem 'rgb'
 gem 'sidekiq'
 gem 'sidekiq-unique-jobs'
-gem 'sidekiq-scheduler', require: false
+gem 'sidekiq-scheduler', '>= 3.0.1', require: false
 gem 'rack-canonical-host'
 gem 'sidekiq-status'
 gem 'gemoji', require: false
