@@ -51,7 +51,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'factory_bot'
+  gem 'factory_bot', '>= 6.5.1'
   gem 'simplecov'
   gem 'webmock'
   gem 'mocha'
