@@ -1,22 +1,22 @@
 source 'https://rubygems.org'
 ruby '2.6.3'
 
-gem 'rails', '~> 5.2'
+gem 'rails', '~> 7.1', '>= 7.1.5.2'
 gem 'bootstrap'
 gem 'attr_encrypted'
 gem 'jquery-rails'
 gem 'pagy'
 gem 'local_time'
-gem 'octicons_helper'
+gem 'octicons_helper', '>= 9.0.0'
 gem 'octokit'
 gem 'omniauth-github'
 gem 'puma'
-gem 'sassc-rails'
+gem 'sassc-rails', '>= 2.1.2'
 gem 'turbolinks'
 gem 'typhoeus'
 gem 'faraday_middleware'
 gem 'uglifier'
-gem 'pg_search'
+gem 'pg_search', '>= 2.2.0'
 gem 'jbuilder'
 gem 'rake', require: false
 gem 'git'
@@ -43,7 +43,7 @@ group :development, :test do
   gem 'dotenv-rails'
   gem 'guard'
   gem 'guard-minitest'
-  gem 'rails-controller-testing'
+  gem 'rails-controller-testing', '>= 1.0.5'
   gem 'sql_queries_count'
   gem 'active_record_query_trace'
   gem 'rubocop', require: false
@@ -63,7 +63,7 @@ group :test do
 end
 
 group :development do
-  gem 'web-console'
+  gem 'web-console', '>= 4.0.0'
   gem 'listen'
   gem 'spring'
   gem 'spring-watcher-listen'
@@ -75,7 +75,7 @@ end
 
 group :production do
   gem 'skylight', '4.0.2'
-  gem 'lograge'
+  gem 'lograge', '>= 0.11.2'
   gem 'puma_worker_killer'
   gem 'hirefire-resource'
 end
